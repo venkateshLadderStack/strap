@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "articles",
+  "collectionName": "featured_experiences",
   "info": {
-    "name": "blog-article",
+    "name": "Featured experience",
     "description": ""
   },
   "options": {
@@ -15,14 +15,14 @@
     "Title": {
       "type": "string"
     },
-    "description": {
+    "place": {
       "type": "string"
     },
-    "content": {
-      "type": "richtext"
+    "duration": {
+      "type": "string"
     },
     "media": {
-      "collection": "file",
+      "model": "file",
       "via": "related",
       "allowedTypes": [
         "images",
@@ -33,16 +33,8 @@
       "required": false,
       "pluginOptions": {}
     },
-    "Date": {
-      "type": "date"
-    },
-    "Category": {
-      "type": "enumeration",
-      "enum": [
-        "animal",
-        "peacock",
-        "john_snow"
-      ]
+    "content": {
+      "type": "richtext"
     },
     "slug": {
       "type": "uid",

@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_slider_slider_2s",
+  "info": {
+    "name": "slider-2",
+    "icon": "arrow-right"
+  },
+  "options": {},
+  "attributes": {
+    "image1": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "image2": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

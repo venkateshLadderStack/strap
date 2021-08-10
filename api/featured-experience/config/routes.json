@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/featured-experiences",
+      "handler": "featured-experience.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/featured-experiences/count",
+      "handler": "featured-experience.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/featured-experiences/:id",
+      "handler": "featured-experience.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/featured-experiences",
+      "handler": "featured-experience.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/featured-experiences/:id",
+      "handler": "featured-experience.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/featured-experiences/:id",
+      "handler": "featured-experience.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
