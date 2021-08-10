@@ -43,6 +43,10 @@
         "peacock",
         "john_snow"
       ]
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "Title"
     }
   }
 }
