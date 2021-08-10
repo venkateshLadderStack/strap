@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_slider_sliders",
+  "info": {
+    "name": "Slider",
+    "icon": "chevron-right"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
