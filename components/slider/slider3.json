@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_slider_slider3s",
+  "info": {
+    "name": "slider3",
+    "icon": "angle-double-up"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

@@ -2,7 +2,8 @@
   "kind": "singleType",
   "collectionName": "homes",
   "info": {
-    "name": "Home"
+    "name": "Home",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -11,10 +12,40 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Slider": {
+    "slider": {
       "type": "component",
       "repeatable": true,
       "component": "slider.slider"
+    },
+    "ourValues": {
+      "type": "component",
+      "repeatable": true,
+      "component": "our-values.our-values"
+    },
+    "slider2": {
+      "type": "component",
+      "repeatable": true,
+      "component": "slider.slider-2"
+    },
+    "slider3": {
+      "type": "component",
+      "repeatable": true,
+      "component": "slider.slider3"
+    },
+    "ourStoryText": {
+      "type": "text"
+    },
+    "ourValuesImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
     }
   }
 }
