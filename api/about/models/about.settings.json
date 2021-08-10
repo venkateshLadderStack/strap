@@ -1,9 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "homes",
+  "collectionName": "abouts",
   "info": {
-    "name": "Home",
-    "description": ""
+    "name": "About"
   },
   "options": {
     "increments": true,
@@ -22,20 +21,26 @@
       "repeatable": true,
       "component": "our-values.our-values"
     },
-    "slider2": {
-      "type": "component",
-      "repeatable": true,
-      "component": "slider.slider-2"
+    "ourImpactHeader": {
+      "type": "string"
     },
-    "slider3": {
+    "ourImpactDescription": {
+      "type": "text"
+    },
+    "ourImpactSLider": {
       "type": "component",
       "repeatable": true,
       "component": "slider.slider3"
     },
-    "ourStoryText": {
+    "charitySlider": {
+      "type": "component",
+      "repeatable": true,
+      "component": "charity-slider.charity-slider"
+    },
+    "ourValuesDescription": {
       "type": "text"
     },
-    "ourValuesImage": {
+    "ourStoryImage": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -47,22 +52,15 @@
       "required": false,
       "pluginOptions": {}
     },
-    "HeroImage": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false,
-      "pluginOptions": {}
-    },
-    "hero": {
+    "panda": {
       "type": "component",
       "repeatable": false,
-      "component": "hero.hero"
+      "component": "panda.panda"
+    },
+    "pandemic": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pandemic.pandemic"
     }
   }
 }

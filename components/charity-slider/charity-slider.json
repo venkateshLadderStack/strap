@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_charity_slider_charity_sliders",
+  "info": {
+    "name": "charitySlider",
+    "icon": "ankh"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
