@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_hero_heroes",
+  "info": {
+    "name": "hero",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "bighero": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "smallhero": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

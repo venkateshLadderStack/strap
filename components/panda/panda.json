@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_panda_pandas",
+  "info": {
+    "name": "panda",
+    "icon": "anchor"
+  },
+  "options": {},
+  "attributes": {
+    "pandaHedaer": {
+      "type": "richtext"
+    },
+    "pandaDeascription": {
+      "type": "text"
+    },
+    "panda": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}
