@@ -47,18 +47,6 @@
       "required": false,
       "pluginOptions": {}
     },
-    "HeroImage": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false,
-      "pluginOptions": {}
-    },
     "hero": {
       "type": "component",
       "repeatable": false,
