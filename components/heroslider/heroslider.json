@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_heroslider_herosliders",
+  "info": {
+    "name": "heroslider",
+    "icon": "adjust"
+  },
+  "options": {},
+  "attributes": {
+    "sliderImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
