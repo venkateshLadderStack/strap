@@ -67,6 +67,11 @@
       "type": "component",
       "repeatable": false,
       "component": "hero.hero"
+    },
+    "aboutslider": {
+      "type": "component",
+      "repeatable": true,
+      "component": "heroslider.heroslider"
     }
   }
 }
