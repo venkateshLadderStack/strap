@@ -15,18 +15,17 @@
     "slider": {
       "type": "component",
       "repeatable": true,
-      "component": "slider.slider"
+      "component": "slider.slider",
+      "required": false
     },
     "ourValues": {
       "type": "component",
       "repeatable": true,
-      "component": "our-values.our-values"
+      "component": "our-values.our-values",
+      "required": false
     },
     "ourImpactHeader": {
       "type": "string"
-    },
-    "ourImpactDescription": {
-      "type": "text"
     },
     "ourImpactSLider": {
       "type": "component",
@@ -72,6 +71,19 @@
       "type": "component",
       "repeatable": true,
       "component": "heroslider.heroslider"
+    },
+    "ourImpactDescription": {
+      "type": "richtext"
+    },
+    "ourStoryDescription": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ourdescription.our-story-description"
+    },
+    "pandaDescriptionRich": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ourdescription.our-story-description"
     }
   }
 }

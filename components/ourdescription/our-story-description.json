@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_ourdescription_our_story_descriptions",
+  "info": {
+    "name": "ourStoryDescription",
+    "icon": "arrow-left"
+  },
+  "options": {},
+  "attributes": {
+    "part1Text": {
+      "type": "richtext"
+    },
+    "part2Text": {
+      "type": "richtext"
+    }
+  }
+}

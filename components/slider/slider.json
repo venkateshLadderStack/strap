@@ -2,12 +2,14 @@
   "collectionName": "components_slider_sliders",
   "info": {
     "name": "Slider",
-    "icon": "chevron-right"
+    "icon": "chevron-right",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "description": {
       "type": "text"
