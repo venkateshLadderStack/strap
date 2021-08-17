@@ -27,9 +27,6 @@
       "repeatable": true,
       "component": "slider.slider3"
     },
-    "ourStoryText": {
-      "type": "text"
-    },
     "ourValuesImage": {
       "model": "file",
       "via": "related",
