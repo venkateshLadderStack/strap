@@ -70,9 +70,6 @@
       "type": "component",
       "repeatable": false,
       "component": "ourdescription.our-story-description"
-    },
-    "blogDescription_for_small_screen": {
-      "type": "richtext"
     }
   }
 }
