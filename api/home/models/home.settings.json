@@ -12,11 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "slider": {
-      "type": "component",
-      "repeatable": true,
-      "component": "slider.slider"
-    },
     "ourValues": {
       "type": "component",
       "repeatable": true,
@@ -47,15 +42,13 @@
       "required": false,
       "pluginOptions": {}
     },
-    "hero": {
-      "type": "component",
-      "repeatable": false,
-      "component": "hero.hero"
-    },
     "heroslider": {
       "type": "component",
       "repeatable": true,
       "component": "heroslider.heroslider"
+    },
+    "ourStoryDescription": {
+      "type": "richtext"
     }
   }
 }

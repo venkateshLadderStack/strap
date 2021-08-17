@@ -2,15 +2,13 @@
   "collectionName": "components_panda_pandas",
   "info": {
     "name": "panda",
-    "icon": "anchor"
+    "icon": "anchor",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "pandaHedaer": {
       "type": "richtext"
-    },
-    "pandaDeascription": {
-      "type": "text"
     },
     "panda": {
       "model": "file",
