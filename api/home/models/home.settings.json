@@ -12,11 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "ourValues": {
-      "type": "component",
-      "repeatable": true,
-      "component": "our-values.our-values"
-    },
     "slider2": {
       "type": "component",
       "repeatable": true,
@@ -26,18 +21,6 @@
       "type": "component",
       "repeatable": true,
       "component": "slider.slider3"
-    },
-    "ourValuesImage": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false,
-      "pluginOptions": {}
     },
     "heroslider": {
       "type": "component",
