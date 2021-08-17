@@ -46,6 +46,9 @@
     },
     "ourStoryDescription": {
       "type": "richtext"
+    },
+    "blod_description_small": {
+      "type": "richtext"
     }
   }
 }
