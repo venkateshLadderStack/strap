@@ -14,7 +14,7 @@
 //   },
 // });
 
-module.exports = ({ env }) => ({
+postgres: module.exports = ({ env }) => ({
   defaultConnection: "default",
   connections: {
     default: {

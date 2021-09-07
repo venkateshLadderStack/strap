@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_shared_seos",
+  "info": {
+    "name": "seo",
+    "icon": "share-alt-square"
+  },
+  "options": {},
+  "attributes": {
+    "metatTitle": {
+      "type": "string"
+    },
+    "metaDescription": {
+      "type": "text"
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.meta"
+    },
+    "preventIndexing": {
+      "type": "boolean"
+    },
+    "structuredData": {
+      "type": "json"
+    },
+    "metaMedia": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

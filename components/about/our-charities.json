@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_about_our_charities",
+  "info": {
+    "name": "our_charities",
+    "icon": "hands-helping"
+  },
+  "options": {},
+  "attributes": {
+    "charities": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.card"
+    }
+  }
+}

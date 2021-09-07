@@ -1,17 +1,19 @@
 {
-  "collectionName": "components_panda_pandas",
+  "collectionName": "components_about_our_values",
   "info": {
-    "name": "panda",
-    "icon": "anchor",
+    "name": "our_values",
+    "icon": "cross",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "pandaHedaer": {
-      "type": "richtext"
+    "our_values_cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.card"
     },
-    "panda": {
-      "model": "file",
+    "our_values_image": {
+      "collection": "file",
       "via": "related",
       "allowedTypes": [
         "images",

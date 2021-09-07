@@ -1,13 +1,16 @@
 {
-  "collectionName": "components_heroslider_herosliders",
+  "collectionName": "components_about_pandas",
   "info": {
-    "name": "heroslider",
-    "icon": "adjust",
+    "name": "panda",
+    "icon": "dog",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "sliderImage": {
+    "heading": {
+      "type": "richtext"
+    },
+    "large_screen_image": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -19,23 +22,23 @@
       "required": false,
       "pluginOptions": {}
     },
-    "title": {
-      "type": "string"
+    "small_screen_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "content": {
+      "type": "richtext"
     },
     "description": {
       "type": "text"
-    },
-    "sliderImageSmall": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false,
-      "pluginOptions": {}
     }
   }
 }

@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_blocks_sections",
+  "info": {
+    "name": "section",
+    "icon": "align-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "social_links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.links"
+    },
+    "description": {
+      "type": "text",
+      "default": "add description if needed"
+    }
+  }
+}

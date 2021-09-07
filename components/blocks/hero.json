@@ -1,12 +1,19 @@
 {
-  "collectionName": "components_slider_slider_2s",
+  "collectionName": "components_blocks_heroes",
   "info": {
-    "name": "slider-2",
-    "icon": "arrow-right"
+    "name": "hero",
+    "icon": "award",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "image1": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "small_screen_image": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -18,8 +25,8 @@
       "required": false,
       "pluginOptions": {}
     },
-    "image2": {
-      "collection": "file",
+    "large_screen_image": {
+      "model": "file",
       "via": "related",
       "allowedTypes": [
         "images",

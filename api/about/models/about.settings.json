@@ -12,76 +12,24 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "ourValues": {
+    "hero": {
       "type": "component",
       "repeatable": true,
-      "component": "our-values.our-values",
-      "required": false
+      "component": "blocks.hero"
     },
-    "ourImpactHeader": {
-      "type": "string"
+    "about_sections": {
+      "type": "dynamiczone",
+      "components": [
+        "about.our-values",
+        "about.our-charities",
+        "about.panda",
+        "blocks.section"
+      ]
     },
-    "ourImpactSLider": {
-      "type": "component",
-      "repeatable": true,
-      "component": "slider.slider3"
-    },
-    "charitySlider": {
-      "type": "component",
-      "repeatable": true,
-      "component": "charity-slider.charity-slider"
-    },
-    "ourStoryImage": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false,
-      "pluginOptions": {}
-    },
-    "panda": {
+    "seo": {
       "type": "component",
       "repeatable": false,
-      "component": "panda.panda"
-    },
-    "pandemic": {
-      "type": "component",
-      "repeatable": false,
-      "component": "pandemic.pandemic"
-    },
-    "aboutslider": {
-      "type": "component",
-      "repeatable": true,
-      "component": "heroslider.heroslider"
-    },
-    "ourImpactDescription": {
-      "type": "richtext"
-    },
-    "ourStoryDescription": {
-      "type": "component",
-      "repeatable": false,
-      "component": "ourdescription.our-story-description"
-    },
-    "pandaDescriptionRich": {
-      "type": "component",
-      "repeatable": false,
-      "component": "ourdescription.our-story-description"
-    },
-    "ourValuesImage": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false,
-      "pluginOptions": {}
+      "component": "shared.seo"
     }
   }
 }

@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_contact_contacts",
+  "info": {
+    "name": "contact_hero",
+    "icon": "phone-volume",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bg_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "contact_email": {
+      "type": "email"
+    },
+    "social_links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.social-links"
+    }
+  }
+}

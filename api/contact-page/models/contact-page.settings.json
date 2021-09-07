@@ -1,9 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "homes",
+  "collectionName": "contact_pages",
   "info": {
-    "name": "Home",
-    "description": ""
+    "name": "contact_page"
   },
   "options": {
     "increments": true,
@@ -12,16 +11,10 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "hero": {
+    "hero_bg": {
       "type": "component",
-      "repeatable": true,
-      "component": "blocks.hero"
-    },
-    "sections": {
-      "type": "dynamiczone",
-      "components": [
-        "blocks.section"
-      ]
+      "repeatable": false,
+      "component": "contact.contact"
     },
     "seo": {
       "type": "component",

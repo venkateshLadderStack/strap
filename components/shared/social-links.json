@@ -1,16 +1,17 @@
 {
-  "collectionName": "components_our_values_our_values",
+  "collectionName": "components_shared_social_links",
   "info": {
-    "name": "Our values",
-    "icon": "arrow-alt-circle-right"
+    "name": "social_links",
+    "icon": "american-sign-language-interpreting",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "Title": {
+    "name": {
       "type": "string"
     },
-    "description": {
-      "type": "text"
+    "href": {
+      "type": "string"
     },
     "icon": {
       "model": "file",
@@ -23,6 +24,12 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "target": {
+      "type": "enumeration",
+      "enum": [
+        "_blank"
+      ]
     }
   }
 }
